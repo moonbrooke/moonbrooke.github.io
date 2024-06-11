@@ -3,7 +3,6 @@
 /.vscode
 /src
 
-.gitignore
 package-lock.json
 package.json
 tailwind.config.js
