@@ -753,10 +753,6 @@ select {
   margin: 2.5rem;
 }
 
-.items-center {
-  align-items: center;
-}
-
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -764,10 +760,6 @@ select {
 
 .text-center {
   text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-gray-100 {
