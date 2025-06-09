@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moonbrooke</title>
-    <link rel="shortcut icon" href="./assets/img/farpras.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/img/farpras.ico"
+      type="image/x-icon"
+    />
 
     <!-- TailwindCSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
 
     <!-- Flowbite -->
@@ -16,35 +19,44 @@
 
     <!-- AngularJS -->
     <script type="text/javascript" src="./assets/js/angular.min.js"></script>
+  </head>
 
-</head>
-
-<body
-    class="bg-[url('/assets/img/pexels-stijn-dijkstra-2583852.jpg')] backdrop-blur-md backdrop-brightness-50 bg-center bg-cover">
-
-    <main class="flex flex-col items-center justify-center w-screen h-screen text-white">
-        <div class="flex flex-col items-center justify-center">
-            <img src="assets/img/kitten_ukulele.jpg" data-tooltip-target="tooltip-avatar" data-tooltip-placement="top"
-                class="w-32 h-32 rounded-full overflow-hidden mb-3" />
-            <div id="tooltip-avatar" role="tooltip"
-                class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-100 bg-[#f78b44] rounded-lg shadow-sm opacity-0 tooltip">
-                Avatar made with Bing Image Creator
-                <div class="tooltip-arrow" data-popper-arrow></div>
-            </div>
-            <h1 class="text-4xl font-bold">
-                <a href="/" class="hover:text-[#f78b44] transition">Moonbrooke</a>
-            </h1>
+  <body
+    class="bg-[url('/assets/img/pexels-stijn-dijkstra-2583852.jpg')] backdrop-blur-md backdrop-brightness-50 bg-center bg-cover"
+  >
+    <main
+      class="flex flex-col items-center justify-center w-screen h-screen text-white"
+    >
+      <div class="flex flex-col items-center justify-center">
+        <img
+          src="assets/img/kitten_ukulele.jpg"
+          data-tooltip-target="tooltip-avatar"
+          data-tooltip-placement="top"
+          class="w-32 h-32 rounded-full overflow-hidden mb-3"
+        />
+        <div
+          id="tooltip-avatar"
+          role="tooltip"
+          class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-100 bg-[#f78b44] rounded-lg shadow-sm opacity-0 tooltip"
+        >
+          Avatar made with Bing Image Creator
+          <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
-        <p class="mt-4 text-lg text-center max-w-lg text-gray-300">
-            Hello! This is <b>Moonbrooke</b>. Here I'm going to share all the stuff that I've been working on.
-        </p>
-        <p class="mt-2 text-center max-w-lg text-orange-300 italic">
-            Site is still under construction!<br>There are still nothing here. Please come back later!
-        </p>
+        <h1 class="text-4xl font-bold">
+          <a href="/" class="hover:text-[#f78b44] transition">Moonbrooke</a>
+        </h1>
+      </div>
+      <p class="mt-4 text-lg text-center max-w-lg text-gray-300">
+        Hello! This is <b>Moonbrooke</b>. Here I'm going to share all the stuff
+        that I've been working on.
+      </p>
+      <p class="mt-2 text-center max-w-lg text-orange-300 italic">
+        Site is still under construction!<br />There are still nothing here.
+        Please come back later!
+      </p>
 
-        <!-- Content -->
-        <!-- <div class="flex flex-col items-center"> -->
-
+      <!-- Content -->
+      <div class="flex flex-col items-center">
         <!-- Main Links -->
         <!-- <div class="flex w-[328px] justify-between space-x-4"> -->
         <!--     <a href="#" -->
@@ -91,7 +103,8 @@
         <!--         class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-100 bg-[#f78b44] rounded-lg shadow-sm opacity-0 tooltip"> -->
         <!--         Work in progress! -->
         <!--         <div class="tooltip-arrow" data-popper-arrow></div> -->
-        <!--     </div> --> -->
+        <!--     </div> -->
+        -->
         <!---->
         <!--     <a href="#" data-tooltip-target="tooltip-gears" data-tooltip-placement="bottom" -->
         <!--         class="flex flex-row items-center justify-center mt-4 px-4 w-[156px] py-2 rounded hover:bg-[#f78b44] transition gap-2 shadow-lg bg-gray-500 cursor-not-allowed"> -->
@@ -113,45 +126,76 @@
 
         <!-- Divider -->
         <div class="flex items-center w-full mt-4">
-            <div class="grow border-t border-gray-500"></div>
-            <span class="shrink mx-3 text-gray-500">Socials</span>
-            <div class="grow border-t border-gray-500"></div>
+          <div class="grow border-t border-gray-500"></div>
+          <span class="shrink mx-3 text-gray-500">Socials</span>
+          <div class="grow border-t border-gray-500"></div>
         </div>
 
         <!-- Social Links -->
-        <a href="https://www.youtube.com/@kizz1337" target="_blank"
-            class="flex flex-row items-center justify-center mt-4 px-4 w-[328px] py-2 rounded hover:brightness-75 transition gap-2 shadow-lg bg-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2"
-                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                    d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z"
-                    stroke-width="0" fill="currentColor"></path>
-            </svg>
-            <p>YouTube</p>
+        <a
+          href="https://www.youtube.com/@kizz1337"
+          target="_blank"
+          class="flex flex-row items-center justify-center mt-4 px-4 w-[328px] py-2 rounded hover:brightness-75 transition gap-2 shadow-lg bg-red-500"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z"
+              stroke-width="0"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <p>YouTube</p>
         </a>
-        <a href="https://twitter.com/_moonbrooke" target="_blank"
-            class="flex flex-row items-center justify-center mt-4 px-4 w-[328px] py-2 rounded hover:brightness-75 transition gap-2 shadow-lg bg-cyan-500">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                    d="M8.267 3a1 1 0 0 1 .73 .317l.076 .092l4.274 5.828l5.946 -5.944a1 1 0 0 1 1.497 1.32l-.083 .094l-6.163 6.162l6.262 8.54a1 1 0 0 1 -.697 1.585l-.109 .006h-4.267a1 1 0 0 1 -.73 -.317l-.076 -.092l-4.276 -5.829l-5.944 5.945a1 1 0 0 1 -1.497 -1.32l.083 -.094l6.161 -6.163l-6.26 -8.539a1 1 0 0 1 .697 -1.585l.109 -.006h4.267z" />
-            </svg>
-            <p>X (Twitter)</p>
+        <a
+          href="https://twitter.com/_moonbrooke"
+          target="_blank"
+          class="flex flex-row items-center justify-center mt-4 px-4 w-[328px] py-2 rounded hover:brightness-75 transition gap-2 shadow-lg bg-cyan-500"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-5 h-5"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M8.267 3a1 1 0 0 1 .73 .317l.076 .092l4.274 5.828l5.946 -5.944a1 1 0 0 1 1.497 1.32l-.083 .094l-6.163 6.162l6.262 8.54a1 1 0 0 1 -.697 1.585l-.109 .006h-4.267a1 1 0 0 1 -.73 -.317l-.076 -.092l-4.276 -5.829l-5.944 5.945a1 1 0 0 1 -1.497 -1.32l.083 -.094l6.161 -6.163l-6.26 -8.539a1 1 0 0 1 .697 -1.585l.109 -.006h4.267z"
+            />
+          </svg>
+          <p>X (Twitter)</p>
         </a>
-        <a href="https://github.com/moonbrooke" target="_blank"
-            class="flex flex-row items-center justify-center mt-4 px-4 w-[328px] py-2 rounded hover:brightness-75 transition gap-2 shadow-lg bg-purple-600">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                    d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" />
-            </svg>
-            <p>GitHub</p>
+        <a
+          href="https://github.com/moonbrooke"
+          target="_blank"
+          class="flex flex-row items-center justify-center mt-4 px-4 w-[328px] py-2 rounded hover:brightness-75 transition gap-2 shadow-lg bg-purple-600"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-5 h-5"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z"
+            />
+          </svg>
+          <p>GitHub</p>
         </a>
-        </div>
+      </div>
 
-        <!-- Support Links -->
-        <!-- <div class="flex items-center justify-center gap-3 mt-4">
+      <!-- Support Links -->
+      <!-- <div class="flex items-center justify-center gap-3 mt-4">
             <a href="https://farpras.gumroad.com" target="_blank" data-tooltip-target="tooltip-gumroad"
                 data-tooltip-placement="bottom" class="hover:brightness-75 transition shadow-lg text-[#fe92e5]">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="2"
@@ -201,16 +245,18 @@
             </div>
         </div> -->
 
-        <!-- Background Image Credit -->
-        <div class="absolute bottom-0 right-0 mb-5 mr-5">
-            <a href="https://www.pexels.com/photo/aerial-photo-of-islands-on-sea-2583852/" target="_blank"
-                class="text-sm mt-5">
-                BG
-            </a>
-        </div>
+      <!-- Background Image Credit -->
+      <div class="absolute bottom-0 right-0 mb-5 mr-5">
+        <a
+          href="https://www.pexels.com/photo/aerial-photo-of-islands-on-sea-2583852/"
+          target="_blank"
+          class="text-sm mt-5"
+        >
+          BG
+        </a>
+      </div>
     </main>
 
     <script src="./assets/js/flowbite-1.8.1.min.js"></script>
-</body>
-
+  </body>
 </html>
