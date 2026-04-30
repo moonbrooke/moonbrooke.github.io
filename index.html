@@ -53,6 +53,10 @@
             letter-spacing: 0.5px;
         }
 
+        .hero {
+            margin-bottom: 10px;
+        }
+
         .theme-btn {
             background: none;
             border: 1px solid var(--fg);
@@ -71,9 +75,6 @@
         }
 
         .item {
-            /* display: flex; */
-            /* align-items: center; */
-            /* margin: 10px 0; */
             text-decoration: none;
             color: var(--link);
             font-weight: 400;
@@ -93,7 +94,6 @@
             margin-top: 30px;
             border-top: 1px solid var(--fg);
             padding-top: 10px;
-            /* font-size: 13px; */
             opacity: 0.8;
         }
     </style>
@@ -109,22 +109,22 @@
         <p>Hello! This is Moonbrooke. Here I'm going to share all the stuff that I've been working on.</p>
         <p>Site is still under construction! There are still nothing here. Please come back later!</p>
 
-        <fieldset>
-            <legend>Socials</legend>
+        <div class="hero">
             <a href="https://www.youtube.com/@kizz1337" class="item" target="_blank">YouTube</a> /
             <a href="https://twitter.com/_moonbrooke" class="item" target="_blank">Twitter</a> /
             <a href="https://github.com/moonbrooke" class="item" target="_blank">GitHub</a>
-        </fieldset>
+        </div>
 
-        <!-- <fieldset> -->
-        <!--     <legend>Projects</legend> -->
-        <!--     <a href="#" class="item">Test Project 1</a> -->
-        <!-- </fieldset> -->
+        <fieldset id="projects-container">
+            <legend>Projects</legend>
+        </fieldset>
 
         <footer>
             <p>Malo periculosam libertatem quam quietum servitium.</p>
         </footer>
     </div>
+
+    <script src="data.js"></script>
 
     <script>
         const b = document.getElementById('t');
@@ -142,6 +142,18 @@
                 localStorage.setItem('theme', 'dark');
             }
         };
+
+        const projectsContainer = document.getElementById('projects-container');
+        let projectsHTML = '<legend>Projects</legend>\n';
+        
+        if (typeof projectsData !== 'undefined') {
+            Object.values(projectsData).forEach(project => {
+                projectsHTML += `            <a href="${project.url}" class="item">${project.title}</a> (${project.description})<br>\n`;
+            });
+            projectsContainer.innerHTML = projectsHTML;
+        } else {
+            projectsContainer.innerHTML += 'Failed to load projects.';
+        }
     </script>
 </body>
 
