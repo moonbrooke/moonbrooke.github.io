@@ -5,9 +5,9 @@ const projectsData = {
         "description": "How many points teams earned/lost after a match"
     },
     "2": {
-        "title": "Link 2",
-        "url": "/link2",
-        "description": "this is description 2"
+        "title": "Hunker Down Explorer",
+        "url": "/hunker-down-explorer",
+        "description": "Explore Steve Wallis's hunker down spots"
     },
     "3": {
         "title": "Link 3",
