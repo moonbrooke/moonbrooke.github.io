@@ -145,7 +145,7 @@
 
         if (typeof projectsData !== 'undefined') {
             Object.values(projectsData).forEach(project => {
-                projectsHTML += `            <a href="${project.url}" class="item">${project.title}</a> (${project.description})<br>\n`;
+                projectsHTML += `${project.icon} <a href="${project.url}" class="item">${project.title}</a> (${project.description})<br>\n`;
             });
             projectsContainer.innerHTML = projectsHTML;
         } else {
