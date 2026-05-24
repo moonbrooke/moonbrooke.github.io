@@ -110,8 +110,6 @@
         <p>Site is still under construction! There are still nothing here. Please come back later!</p>
 
         <div class="hero">
-            <a href="https://www.youtube.com/@kizz1337" class="item" target="_blank">YouTube</a> /
-            <a href="https://twitter.com/_moonbrooke" class="item" target="_blank">Twitter</a> /
             <a href="https://github.com/moonbrooke" class="item" target="_blank">GitHub</a>
         </div>
 
@@ -145,7 +143,7 @@
 
         const projectsContainer = document.getElementById('projects-container');
         let projectsHTML = '<legend>Projects</legend>\n';
-        
+
         if (typeof projectsData !== 'undefined') {
             Object.values(projectsData).forEach(project => {
                 projectsHTML += `            <a href="${project.url}" class="item">${project.title}</a> (${project.description})<br>\n`;
