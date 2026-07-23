@@ -20,7 +20,7 @@ const projectsData = {
     "4": {
         "title": "Pokedex",
         "icon": "🔴",
-        "url": "https://github.com/moonbrooke/pokedex",
+        "url": "https://moonbrooke.github.io/pokedex",
         "description": "Pokemon data with stats"
     }
 };
