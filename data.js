@@ -16,5 +16,11 @@ const projectsData = {
         "icon": "⛏️",
         "url": "https://github.com/moonbrooke/fast-smelt-datapack",
         "description": "Smelt items on Furnace, Blast Furnace, Smoker, and Campfire FAST!"
+    },
+    "4": {
+        "title": "Pokedex",
+        "icon": "🔴",
+        "url": "https://github.com/moonbrooke/pokedex",
+        "description": "Pokemon data with stats"
     }
 };
