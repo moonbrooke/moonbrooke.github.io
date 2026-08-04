@@ -22,5 +22,11 @@ const projectsData = {
         "icon": "🔴",
         "url": "https://moonbrooke.github.io/pokedex",
         "description": "Pokemon data with stats"
+    },
+    "5": {
+        "title": "dotfiles",
+        "icon": "🐧",
+        "url": "https://github.com/moonbrooke/dotfiles",
+        "description": "Personal linux dotfiles"
     }
 };
