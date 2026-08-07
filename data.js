@@ -31,7 +31,7 @@ const projectsData = {
     },
     "6": {
         "title": "YouTube Thumbnail Grabber",
-        "icon": "🐧",
+        "icon": "🎞️",
         "url": "https://moonbrooke.github.io/thumbnail-grabber",
         "description": "Extract thumbnails from YouTube videos"
     }
