@@ -28,5 +28,11 @@ const projectsData = {
         "icon": "🐧",
         "url": "https://github.com/moonbrooke/dotfiles",
         "description": "Personal linux dotfiles"
+    },
+    "6": {
+        "title": "YouTube Thumbnail Grabber",
+        "icon": "🐧",
+        "url": "https://moonbrooke.github.io/thumbnail-grabber",
+        "description": "Extract thumbnails from YouTube videos"
     }
 };
