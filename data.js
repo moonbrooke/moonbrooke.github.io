@@ -39,6 +39,6 @@ const projectsData = {
         "title": "Noiz",
         "icon": "📻",
         "url": "https://moonbrooke.github.io/noiz",
-        "description": " A very simple web based (local) music player"
+        "description": "A very simple web based (local) music player"
     }
 };
