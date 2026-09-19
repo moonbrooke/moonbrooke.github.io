@@ -34,5 +34,11 @@ const projectsData = {
         "icon": "🎞️",
         "url": "https://moonbrooke.github.io/thumbnail-grabber",
         "description": "Extract thumbnails from YouTube videos"
+    },
+    "7": {
+        "title": "Moiz",
+        "icon": "📻",
+        "url": "https://moonbrooke.github.io/noiz",
+        "description": " A very simple web based (local) music player"
     }
 };
